@@ -34,5 +34,23 @@
 </head>
 <body>
   <script src="flutter_bootstrap.js" async></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-auth.js"></script>
+  <script>
+    var firebaseConfig = {
+      apiKey: "AIzaSyDVpf0wzRZhk8fAtnvYF4p10Uj6WVzSwXs",
+      authDomain: "room5-d44bd.firebaseapp.com",
+      databaseURL: "https://room5-d44bd.firebaseio.com",
+      projectId: "room5-d44bd",
+      storageBucket: "room5-d44bd.appspot.com",
+      messagingSenderId: "250856598497",
+      appId: "1:250856598497:android:86500f17fcefe6204500a0",
+    };
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    //firebase.analytics(); //analytics를 사용할 경우 주석 해제
+  </script>
 </body>
 </html>
